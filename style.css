@@ -33,6 +33,10 @@ ul {
     padding: 0;
 }
 
+ul li {
+    text-align: left;
+}
+
 li {
     margin: 10px 0;
 }
@@ -74,10 +78,28 @@ button {
     color: #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    display: none; /* Hide by default */
 }
 
-/* Show the score when it's available */
-.scoreArea{
+.scoreArea {
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
     display: none;
+}
+
+.scoreArea h3 {
+    margin: 0;
+}
+
+.scoreArea .btn {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
